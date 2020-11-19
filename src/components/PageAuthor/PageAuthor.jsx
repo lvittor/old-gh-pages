@@ -31,21 +31,21 @@ const PageAuthor = ({ postLocation, className }) => {
                             Lucas Vittor
                         </h4>
                         <div className="PageAuthor__info__description">
-                            Estudio Informática en el <a href="https://www.itba.edu.ar/" target="_blank">ITBA</a>. Escribo. <br/>
+                            Ing. Informática en <a href="https://www.itba.edu.ar/" target="_blank">ITBA</a>. Escribo. <br/>
                         </div>
                         <div className="PageAuthor__info__links">
                             <Link
                                 className="PageAuthor__info__link"
                                 doOpenInNewTab
-                                to="https://github.com/margueriteroth">
+                                to="https://github.com/lvittor">
                                 <FontAwesomeIcon
                                     icon={faGithub}
-                                />
+                                    />
                             </Link>
                             <Link
                                 className="PageAuthor__info__link"
                                 doOpenInNewTab
-                                to="https://dribbble.com/marrrguerite">
+                                to="https://www.linkedin.com/in/lvvittor/">
                                 <FontAwesomeIcon
                                     icon={faLinkedinIn}
                                 />
@@ -53,15 +53,7 @@ const PageAuthor = ({ postLocation, className }) => {
                             <Link
                                 className="PageAuthor__info__link"
                                 doOpenInNewTab
-                                to="https://twitter.com/marrrguerite">
-                                <FontAwesomeIcon
-                                    icon={faMedium}
-                                />
-                            </Link>
-                            <Link
-                                className="PageAuthor__info__link"
-                                doOpenInNewTab
-                                to="mailto:hello@marguerite.io">
+                                to="mailto:lvittor@itba.edu.ar">
                                 Email
                             </Link>
                         </div>
