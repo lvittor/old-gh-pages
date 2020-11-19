@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-        title: `Marguerite Roth | Product Designer & Developer`,
-        description: `Personal site for Marguerite Roth`,
-        author: `Marguerite Roth | marguerite.io | @marrrguerite`,
-        siteUrl: "https://marguerite.io",
-        image: `https://marguerite.io/og-image.png`,
-        twitterImage: `https://marguerite.io/twitter-image.png`,
-        keywords: `web development, design, data, product, visualization, dashboard, analytics, currents, parse.ly, visual`,
+        title: `Lucas Vittor | Software Engineering Student`,
+        description: `Personal site for Lucas Vittor`,
+        author: `Lucas Vittor| lvittor.github.io`,
+        siteUrl: "https://lvittor.github.io",
+        image: `https://lvittor.github.io/og-image.png`,
+        twitterImage: `https://lvittor.github.io/twitter-image.png`,
+        keywords: `data, software, analytics, engineering`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -21,7 +21,7 @@ module.exports = {
     {
         resolve: `gatsby-plugin-canonical-urls`,
         options: {
-        siteUrl: `https://marguerite.io`,
+        siteUrl: `https://lvittor.github.io`,
     },
       },
     // {
