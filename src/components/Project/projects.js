@@ -1,24 +1,40 @@
 import React from "react";
 
 const projects = {
-    currents: {
-        title: "Currents Dashboard",
-        projectType: "dashboard",
+    // currents: {
+    //     title: "Currents Dashboard",
+    //     projectType: "dashboard",
+    //     description: <div>
+    //         A look into the Currents Attention analytics dashboard built at Parse.ly.
+    //     </div>,
+    //     readMore: "./currents",
+    //     "tech": [
+    //         "react",
+    //         "redux",
+    //         "d3",
+    //         "mixpanel",
+    //         "figma"
+    //     ],
+    //     hasImageBorder: true,
+    //     imgType: "mp4",
+    //     "img_src": [
+    //         "project-currents-01"
+    //     ],
+    // },
+    tree: {
+        title: "Tree Analysis 🌲",
+        projectType: "data analysis",
         description: <div>
-            A look into the Currents Attention analytics dashboard built at Parse.ly.
+           Procesamiento de datos de árboles en el espacio público de una ciudad.
         </div>,
-        readMore: "./currents",
+        github: "https://github.com/lvittor/tree-analysis",
+        code: "",
         "tech": [
-            "react",
-            "redux",
-            "d3",
-            "mixpanel",
-            "figma"
+            "C"
         ],
         hasImageBorder: true,
-        imgType: "mp4",
         "img_src": [
-            "project-currents-01"
+            "project-tree-analysis-01"
         ],
     },
     /*prist: {

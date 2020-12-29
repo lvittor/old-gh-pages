@@ -70,7 +70,6 @@ const Project = ({ demo, description, github, hasImageBorder, images, imgType, i
                                 </Link>
                                 </p>
                             )}
-
                             {github && (
                                 <p>
                                     <FontAwesomeIcon className="Project__link__icon" icon={faGithub} />
