@@ -37,6 +37,26 @@ const projects = {
             "project-tree-analysis-01"
         ],
     },
+    weatherStatus: {
+        title: "Weather Status ☁️",
+        projectType: "data analysis",
+        description: <div>
+            Página web de las condiciones climáticas actuales entre varias ciudades, separadas por país.
+        </div>,
+        github: "https://github.com/lvittor/weather-status",
+        code: "",
+        "tech": [
+            "XSLT",
+            "CSS",
+            "XQuery",
+            "Shell"
+        ],
+        hasImageBorder: true,
+        "img_src": [
+            //"project-weather-status-01"
+            "drawing3"
+        ],
+    },
     /*prist: {
         title: "Prist | A Gatsby & Prismic Starter",
         projectType: "web",
