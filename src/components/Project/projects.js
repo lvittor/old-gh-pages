@@ -21,6 +21,23 @@ const projects = {
     //         "project-currents-01"
     //     ],
     // },
+    candyCrush: {
+        title: "Candy Crush 🎮",
+        projectType: "game development",
+        description: <div>
+            Versión reducida del clásico juego Candy Crush.
+        </div>,
+        github: "https://github.com/lvittor/Candy-Crush",
+        code: "",
+        "tech": [
+            "Java",
+            "JavaFX",
+        ],
+        hasImageBorder: true,
+        "img_src": [
+            "project-candy-crush-01"
+        ],
+    },
     tree: {
         title: "Tree Analysis 🌲",
         projectType: "data analysis",
@@ -53,8 +70,7 @@ const projects = {
         ],
         hasImageBorder: true,
         "img_src": [
-            //"project-weather-status-01"
-            "drawing3"
+            "project-weather-status-01"
         ],
     },
     /*prist: {
