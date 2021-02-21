@@ -1,6 +1,5 @@
 import React from "react"
 import Link from "components/_ui/Link/Link"
-import ContestantHead from "components/Bachelor/ContestantHead"
 import Intro from "components/Intro/Intro"
 import Layout from "components/Layout/Layout"
 import MaxWidth from "components/_ui/MaxWidth/MaxWidth";
@@ -15,23 +14,6 @@ const Home = () => (
         <SEO />
         <Intro />
         {/*<MaxWidth className="Home__recent">
-            <div>
-                <h2>
-                    Recent Project
-                </h2>
-                <Link to="/2020-bachelor" className="Home__recent__item Home__recent__item--project">
-                    <ContestantHead name="Deandra" />
-                    <div>
-                        <h3>
-                            Bachelor 2020 Contestant Guide
-                        </h3>
-                        <p>
-                            Updating weekly with episode information and improved components.
-                        </p>
-                    </div>
-
-                </Link>
-            </div>
             <div>
                 <h2>
                     Recent Post

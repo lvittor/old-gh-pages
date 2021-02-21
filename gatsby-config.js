@@ -114,13 +114,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `bachelor`,
-        path: `${__dirname}/src/components/Bachelor/images`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
         path: `${__dirname}/src/content/work`,
         name: `work`,
       },
