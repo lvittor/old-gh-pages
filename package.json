@@ -3,7 +3,7 @@
   "private": true,
   "description": "Lucas Vittor personal site.",
   "version": "0.1.0",
-  "author": "Lucas Vittor | lvittor.github.io | @lvvittor ",
+  "author": "Lucas Vittor | lvittor.github.io | @lvvittor",
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
