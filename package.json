@@ -1,9 +1,9 @@
 {
-  "name": "marguerite-roth-site-and-writing",
+  "name": "lucas-vittor",
   "private": true,
-  "description": "Marguerite Roth's personal site and blog.",
+  "description": "Lucas Vittor personal site.",
   "version": "0.1.0",
-  "author": "Marguerite Roth | marguerite.io | @marrrguerite",
+  "author": "Lucas Vittor | lvittor.github.io | @lvvittor ",
   "dependencies": {
     "@emotion/core": "^10.0.10",
     "@emotion/styled": "^10.0.12",
