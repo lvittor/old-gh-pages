@@ -1,11 +1,9 @@
 import React from "react"
-import Link from "components/_ui/Link/Link"
 import Intro from "components/Intro/Intro"
 import Layout from "components/Layout/Layout"
 import MaxWidth from "components/_ui/MaxWidth/MaxWidth";
 import BookshelfContainer from "components/Bookshelf/BookshelfContainer";
 import Project from "components/Project/Project";
-import ProjectCrochet from "components/Project/ProjectCrochet";
 import projects from "components/Project/projects.js";
 import SEO from "components/SEO/SEO"
 
@@ -13,26 +11,6 @@ const Home = () => (
     <Layout showNavigation showSocialCol showFooter>
         <SEO />
         <Intro />
-        {/*<MaxWidth className="Home__recent">
-            <div>
-                <h2>
-                    Recent Post
-                </h2>
-                <Link to="/blog/set-up-local-website"
-                    className="Home__recent__item Home__recent__item--post">
-                    <div>
-                        <h3>
-                            Set up a local dev environment and run a website
-                        </h3>
-                        <p>
-                            Collect and utilize the tools needed to spin up and edit a website on your computer.
-                            Basic HTML/CSS/JS, D3.js, and Twitter Bootstrap starters provided.
-                        </p>
-                    </div>
-
-                </Link>
-            </div>
-        </MaxWidth>*/}
         <MaxWidth id="work" className="Home__projects">
             <h1>
                 Proyectos
@@ -53,7 +31,6 @@ const Home = () => (
                     key={key}
                 />
             )}
-            {/*<ProjectCrochet />*/}
             <BookshelfContainer />
         </MaxWidth>
     </Layout>
