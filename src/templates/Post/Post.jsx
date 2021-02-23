@@ -42,7 +42,8 @@ export default ({ data }) => {
                         <div className="Post__hero__content">
                             <Label className="Post__hero__label" category="primary">
                                 <Link className="Post__hero__label__link" to={'/blog'}>
-                                    Blog </Link>
+                                    Blog 
+                                </Link>
                             </Label>
                             <h1 className="Post__hero__title">
                                 {Post.frontmatter.title}
